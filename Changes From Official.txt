@@ -1,0 +1,553 @@
+Learnsets: https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound/src/Learnsets.c
+Egg Moves: https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound/src/Egg_Moves.c
+Evolutions: https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound/src/Evolution%20Table.c
+Wild Held Items: https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound/src/Base_Stats.c
+
+Pokemon Stats:
+-The Tyranitar, Garchomp and Metagross lines have all had their growth rates changed to Medium Slow.
+-Aegislash has its Gen 7 stats (take advantage of this)
+
+Attack Powers:
+Leech Life: 20
+Feint: 50
+Meteor Mash: 100
+Snore: 80
+Fly: 100
+Dive: 100
+Glaciate: 75
+Moves With Power nerfed to 85 as of XY: 90
+Moves With Power nerfed to 90 as of XY: 95
+Moves With Power nerfed to 95 as of XY: 100
+Moves With Power nerfed to 110 as of XY: 120
+Moves With Power nerfed to 130 as of XY: 140
+PLA Attacks: Altered based on similar moves
+
+Attack Accuracies:
+Dark Void - 80%
+Smog - 100%
+Glaciate - 100%
+
+Ability Effects:
+-Gale Wings has its Gen 6 effect (no nerf)
+-Keen Eye and Infiltrator prevent the user's accuracy from being lowered in Fog
+
+Attacks:
+-Flinging a snowball gives the target Frostbite
+-Leech Fang is equivalent to Gen 7's Leech Life (and gets a Strong Jaw boost)
+-King's Shield lowers Attack by 2 on contact (Gen 7)
+-Rock Smash always lowers Defense
+-There is no money cap on G-Max Gold Rush
+-New PLA attacks with increased action speed are priority moves
+-Victory Dance is physical Quiver Dance
+-Freeze-Dry has a 30% chance to inflict frostbite, Freezing Glare 20% (and still doubles in Hail)
+-Infernal Parade & Bitter Malice only double damage on burn and frostbite respectively
+
+Items:
+-Dusk Ball has a capture rate of 3.5 (Gen 6)
+-Confusion/Healing Berries heal 50 % of max HP (Gen 7), 66 % with Ripen
+-Utility Umbrella ignores Fog
+-Giving Dialga and Palkia their respective orbs to hold will transform them into their origin formes
+
+Misc Effects:
+-Burn & Frostbite do 1/8 damage (Gen 6)
+-Paralysis lowers speed to 1/4 (Gen 6)
+-Brick Break and Psychic Fangs break an extra Raid shield
+
+Movesets:
+-Beedrill learns Needle Arm (Level-Up)
+-Rattata-K, Raticate-K learn Psychic Fangs, Fire Fang, Thunder Fang, Ice Fang (Tutor)
+-Fearow learns Beak Blast (Level-Up)
+-Arbok learns Toxic Spikes (Egg)
+-Nidoqueen learns Shell Side Arm (Level-Up)
+-Gloom, Vileplume, Bellossom learn Apple Acid (Level-Up)
+-Bellossom learns Lunar Dance, Fiery Dance, Floral Healing (Level-Up)
+-Meowth-A, Persian-A learn Night Daze (Egg)
+-Golduck learns Power Gem (Evolve)
+-Mankey, Primeape learn Thunderous Kick (Egg)
+-Poliwrath learns Surging Strikes (Level-Up)
+-Weepinbell, Victreebel learn Grav Apple (Level-Up)
+-Geodude, Graveler, Golem (Both Kantonian + Alolan forms) learn Ice Punch (Tutor)
+-Rapidash-G learns Psyshield Bash (Level-Up)
+-Farfetch'd-K learns Meteor Assault (Level-Up)
+-Grimer-K, Muk-K learn Knock Off (Tutor)
+-Onix, Steelix learn Zen Headbutt (Tutor)
+-Marowak-K learns Shadow Bone, Head Smash (Level-Up), Rock Blast (Tutor)
+-Hitmonlee learns Pyro Ball, Thunderous Kick (Level-Up)
+-Weezing-K learns Strange Steam (Level-Up)
+-Rhyhorn learns Head Smash (Egg)
+-Goldeen, Seaking learn Fishious Rend (Level-Up)
+-Tauros learns Head Charge, Head Smash (Level-Up)
+-Flareon learns Sacred Fire (Level-Up)
+-Kabutops learns Stone Axe (Level-Up)
+-Articuno learns Glaciate (Level-Up)
+-Zapdos learns Bolt Beak (Level-Up)
+-Sentret, Furret learn Extremespeed (Level-Up)
+-Ledian learns Close Combat, Victory Dance (Level-Up)
+-Spinarak, Ariados learn First Impression (Egg)
+-Mareep, Flaaffy & Ampharos learn Thunder Cage (Level-Up)
+-Sunkern, Sunflora learn Seed Flare (Level-Up)
+-Murkrow, Honchkrow learn Oblivion Wing (Level-Up)
+-Espeon learns Power Gem (Tutor)
+-Girafarig learns Psywave (Egg)
+-Dunsparce learns No Retreat (Egg)
+-Granbull learns Spirit Break (Level-Up)
+-Qwilfish learns Anchor Shot, Barb Barrage (Egg)
+-Slugma, Magcargo learn Magma Storm (Level-Up), Magcargo learns Power Gem (Level-Up)
+-Remoraid, Octillery learn Scale Shot
+-Octillery learns Octolock (Level-Up)
+-Houndour, Houndoom learn Fiery Wrath (Level-Up)
+-Kingdra learns Snipe Shot (Level-Up)
+-Stantler learns No Retreat (Level-Up)
+-Beautifly learns Hurricane (Tutor)
+-Dustox learns Lunge, Toxic Thread (Level-Up)
+-Masquerain learns Hurricane (Level-Up)
+-Makuhita learns Storm Throw (Egg)
+-Volbeat learns Reflect (TM)
+-Illumise learns Tail Glow (Egg), Reflect (TM)
+-Sharpedo learns Jaw Lock (Level-Up)
+-Spoink, Grumpig learn Recover (Egg)
+-Grumpig learns Eerie Spell (Level-Up)
+-Vibrava, Flygon learn Clanging Scales (Level-Up)
+-Lunatone learns Eerie Spell (Level-Up)
+-Solrock learns Eerie Spell (Level-Up)
+-Baltoy, Claydol learn Shore Up (Level-Up)
+-Anorith, Armaldo learn Accelerock (Egg)
+-Kecleon learns Seed Bomb (Tutor)
+-Tropius learns Grav Apple, Hurricane (Level-Up)
+-Glalie learns Hyper Voice (Tutor)
+-Gorebyss learns Energy Ball (TM)
+-Metagross learns Fly, Rock Climb (HM)
+-Rayquaza learns V-Create (Level-Up)
+-Jirachi learns Mist Ball (Level-Up)
+-Empoleon lears Mirror Shot (Evolve)
+-Bibarel learns Ice Fang (Tutor), Tail Slap (Level-Up), No Retreat (Egg)
+-Kricketune learns Thief (TM)
+-Shinx, Luxio, Luxray learn Volt Tackle (Level-Up)
+-Cranidos, Rampardos learn Wild Charge (TM), High Horsepower (Tutor)
+-Bastiodon learns Behemoth Bash (Level-Up)
+-Wormadam learns Silver Wind (TM), Ancient Power (Level-Up)
+-Mothim learns Hurricane (Level-Up)
+-Buizel, Floatzel learn Mud Shot (Egg)
+-Drifblim learns Astral Barrage (Level-Up)
+-Mismagius learns Moongeist Beam (Level-Up)
+-Glameow learns Metal Claw (Egg)
+-Stunky & Skuntank learn Dire Claw (Level-Up)
+-Bronzor, Bronzong learn Doom Desire (Level-Up), Bronzong learns Heal Bell (Tutor)
+-Garchomp learns Fly (HM)
+-Carnivine learns Snap Trap, Jungle Healing (Level-Up), Earth Power (Tutor)
+-Electivire learns Plasma Fists (Level-Up)
+-Yanmega learns Fly (HM)
+-Leafeon learns Trop Kick (Level-Up)
+-Glaceon learns Glaciate (Level-Up)
+-Froslass learns Bitter Malice (Level-Up)
+-Dialga learns Clanging Scales (Level-Up)
+-Palkia learns Origin Pulse (Level-Up)
+-Shaymin (Both forms) learn Floral Healing (Level-Up)
+-Victini learns Blue Flare, Bolt Strike (Level-Up)
+-Samurott learns Secret Sword (Egg) or (Tutor)
+-Purrloin, Liepard learn Night Daze (Egg)
+-Blitzle, Zebstrika learn Thunderous Kick, Volt Tackle (Level-Up)
+-Zebstrika learns Flare Blitz (Level-Up)
+-Woobat & Swoobat learn Esper Wing (Level-Up)
+-Audino learns Decorate (Level-Up)
+-Throh learns Recover (Level-Up)
+-Basculin Red & Basculin Blue learn Wave Crash (Egg)
+-Maractus learns Seed Flare (Level-Up), Tail Glow (Egg)
+-Dwebble, Crustle learn First Impression (Egg)
+-Archeops learns Flying Press (Level-Up)
+-Minccino, Cinccino learn Bone Rush (Egg)
+-Gothitelle learns Magic Powder (Egg) or (Tutor) 
+-Ducklett, Swanna learn Nasty Plot (Tutor)
+-Swanna learns Waterfall (HM)
+-Deerling, Sawsbuck learn Trop Kick (Egg)
+-Eelektrik, Eelektross learn Thunder Cage (Level-Up)
+-Cubchoo, Beartic learn Ice Hammer (Level-Up)
+-Cryogonal learns Reflect Type (Level-Up)
+-Stunkfisk learns Shore Up (Egg), Snap Trap (Level-Up)
+-Druddigon learns Dragon Hammer (Level-Up)
+-Rufflet, Braviary learn Play Rough (Tutor)
+-Keldeo learns Aurora Beam (Level-Up)
+-Meloetta learns Luster Purge (Level-Up)
+-Chesnaught learns Drum Beating (Level-Up)
+-Bunnelby learns Stuff Cheeks (Egg)
+-Pyroar learns Extremespeed (Egg)
+-Floette learns Spirit Break (Level-Up) 
+-Pangoro learns Wicked Blow (Level-Up)
+-Furfrou learns High Horsepower (Tutor)
+-Aromatisse learns Decorate (Level-Up)
+-Heliolisk learns Overdrive (Level-Up)
+-Amaura, Aurorus learn Reflect Type (Egg)
+-Dedenne learns Stuff Cheeks (Level-Up)
+-Gourgeist learns Spirit Shackle (Level-Up)
+-Avalugg learns Mountain Gale (Level-Up)
+-Noivern learns Aeroblast (Level-Up)
+-Volcanion learns Strange Steam (Level-Up) 
+-Poplio, Brionne, Primarina learn Relic Song (Level-Up)
+-Lycanroc-Midnight learns Accelerock (Level-Up)
+-Passimian learns Court Change (Egg) or (Tutor)
+-Sandygast, Pallosand learn  Strength Sap (Egg)
+-Turtonator learns Searing Shot (Level-Up)
+-Jangmo-o, Hakamo-o learn Clanging Scales (Level-Up)
+-Guzzlord learns Core Enforcer (Level-Up)
+-Boltund learns Bolt Strike (Level-Up)
+-Centiskorch learns Raging Fury (Level-Up)
+-Clobbopus, Grapploct learn Aqua Jet (Egg)
+-Pincurchin learns Barb Barrage (Level-Up)
+-Kleavor learns Lunge (Level-Up)
+-Rapidash-G learns Psyshield Bash (Level-Up)
+-Slowpoke-G learns Teleport (Egg)
+
+Abilities:
+Kanto
+-Caterpie & Weedle: HA = Run Away -> Technician
+-Beedrill: A2 = None -> Sniper, HA = Sniper -> Technician
+-Pidgey & Pidgeotto & Pidgeot: HA = Big Pecks -> Gale Wings
+-Rattata & Raticate: A1 = Run Away -> Strong Jaw
+-Spearow & Fearow: A2 = None -> Sniper, HA = Sniper -> Drill Beak (Drill moves always crit)
+-Ekans & Arbok: HA = Unnerve -> Merciless
+-Pikachu Balloon: A1 = Static -> Levitate
+-Pikachu Surfing: A1 = Static -> Surge Surfer
+-Sandshrew & Sandslash: A2 = None -> Sand Force
+-Sandshrew A & Sandslash A: A2 = None -> Ice Body
+-Nidoqueen: A2 = None -> Queenly Majesty
+-Wigglytuff: HA = Frisk -> Huge Power
+-Paras & Parasect: HA = Damp -> Toxic Boost
+-Venomoth: HA = Wonder Skin -> Levitate
+-Diglett-A & Dugtrio-A: A1 = Sand Veil -> Sand Force, HA = Sand Force -> Steely Spirit
+-Meowth & Persian: HA = Unnerve -> Nine Lives (Sturdy)
+-Psyduck: A1 = Damp -> Swift Swim, HA = Swift Swim -> Damp
+-Golduck: A1 = Damp -> Swift Swim, HA = Swift Swim -> Neuroforce
+-Machoke & Machamp: HA = Steadfast -> Focus Belt (Sturdy)
+-Bellsprout & Weepinbell: A2 = None -> Gluttony, HA = Gluttony -> Unnerve
+-Victreebel: A2 = None -> Gluttony, HA = Gluttony -> Corrosion
+-Golem-K & Graveler-K & Geodude-K: HA = Sand Veil -> Sand Spit
+-Ponyta & Rapidash: A1 = Run Away -> Flame Body, HA = Flame Body -> Fiery Neigh (Moxie)
+-Farfetch'd: A1 = Keen Eye -> Scrappy
+-Doduo & Dodrio: A1 = Run Away -> Tangled Feet, HA = Tangled Feet -> Reckless
+-Muk-K & Grimer-K: A1 = Stench -> Gooey
+-Gengar: A1 = Cursed Body -> Levitate, HA = None -> Cursed Body
+-Seel & Dewgong: A2 = Hydration -> Ice Body, HA = Ice Body -> Ice Scales
+-Drowzee: A2 = Forewarn -> Inner Focus, HA = Inner Focus -> Forewarn
+-Hypno: A2 = Forewarn -> Inner Focus, HA = Inner Focus -> Psychic Surge
+-Cubone & Marowak: A2 = Lightning Rod -> Battle Armor, HA = Battle Armor -> Skill Link
+-Hitmonchan: A1 = Keen Eye -> Inner Focus, HA = Inner Focus -> Unseen Fist
+-Lickitung & Lickilicky: A1 = Own Tempo -> Thick Fat
+-Staryu & Starmie: A1 = Illuminate -> Victory Star
+-Jynx: A2 = Forewarn -> Dry Skin, HA = Dry Skin -> Icy Skin (Ice Scales)
+-Articuno: HA = A2 = None -> Snow Cloak, Snow Cloak -> Competitive
+-Zapdos: A2 = None -> Static, HA = Static -> Defiant
+-Moltres: A2 = None -> Flame Body, HA = Flame Body -> Berserk
+-Mew: HA = None -> Magic Guard
+
+Johto
+-Meganium: HA = Leaf Guard -> Grassy Surge
+-Typhlosion: HA = Flash Fire -> Drought
+-Sentret & Furret: A1 = Run Away -> Frisk, HA = Frisk -> Hustle
+-Ledyba & Ledian: HA = Rattled/Iron Fist -> Huge Power
+-Spinarak & Ariados: A1 = Swarm -> Sniper, HA = Sniper -> Merciless
+-Chinchou & Lanturn: A2 = Illuminate -> Water Absorb, HA = Water Absorb -> Lightning Rod
+-Mareep & Flaafy & Ampharos: HA = Plus -> Tangling Wool (Gooey)
+-Bellossom: HA = Healer -> Triage
+-Bonsly & Sudowoodo: HA = Rattled -> Sap Sipper
+-Hoppip & Skiploom & Jumpluff: A2 = Leaf Guard -> Infiltrator, HA = Infiltrator -> Simple
+-Sunflora: HA = Early Bird -> Grass Dash (Priority to Grass moves)
+-Misdreavous: HA = None -> Magician
+-Unown: HA = None -> Adaptability
+-Girafarig: A2 = Early Bird -> Sap Sipper, HA = Sap Sipper -> Brain Bond
+-Snubbull & Granbull: HA = Rattled -> Strong Jaw
+-Ursaring: HA = Unnerve -> Tough Claws
+-Magcargo: A1 = Magma Armor -> Evaporate (Storm Drain + Removes rain)
+-Remoraid & Octillery: A2 = Sniper -> Skill Link
+-Delibird: HA = Insomnia -> Prankster
+-Stantler & Wyrdeer: A2 = Frisk -> Sap Sipper, HA = Sap Sipper -> Scrappy
+-Smeargle: A2 = Technician -> Trace
+-Smoochum: A2 = Forewarn -> Hydration, HA = Hydration -> Icy Skin (Ice Scales)
+-Raikou: A2 = None -> Inner Focus, HA = Inner Focus -> Volt Absorb
+-Entei: A2 = None -> Inner Focus, HA = Inner Focus -> Flash Fire
+-Suicune: A2 = None -> Inner Focus, HA = Inner Focus -> Water Absorb
+-Celebi: HA = None -> Regenerator
+
+Hoenn
+-Mega Sceptile: A1 = Lightningrod -> Technician
+-Poochyena: A2 = Quick Feet -> Strong Jaw, HA = Rattled -> Quick Feet
+-Mightyena: A2 = Quick Feet -> Strong Jaw
+-Wurmple: HA = Run Away -> Technician
+-Beautifly: HA = Rivalry -> Serene Grace
+-Dustox: HA = Compound Eyes -> Dusty Scales (Ice Scales)
+-Masquerain: A2 = None -> Compound Eyes
+-Whismur, Loudred, & Exploud: A2 = None -> Bellow (Punk Rock)
+-Electrike & Manectric: HA = Minus -> Flare Boost
+-Plusle: A2 = None -> Lightning Rod, HA = Lightning Rod -> Electric Surge
+-Minun: A2 = None -> Volt Absorb, HA = Lightning Rod -> Electric Surge
+-Gulpin & Swalot: A1 = Liquid Ooze -> Gooey
+-Wailmer & Wailord: HA = Pressure -> Regenerator
+-Spoink & Grumpig: HA = Gluttony -> Magic Bounce
+-Spinda: A2 = Tangled Feet -> Huge Power
+-Vibrava & Flygon: HA = None -> Sound Waves (Punk Rock)
+-Cacnea: A2 = None -> Overcoat
+-Cacturne: A2 = None -> Prankster
+-Altaria: A2 = None -> Cloud Nine, HA = None -> Cotton Cloud (Cotton Down)
+-Zangoose: A2 = None -> Toxic Boost, HA = Toxic Boost -> Tough Claws
+-Seviper: A2 = None -> Infiltrator, HA = Infiltrator -> Slippery Tail (Priority to tail moves)
+-Barboach & Whiscash: HA = Hydration -> Adaptability
+-Baltoy & Claydol: HA = None -> Multieye (Multiscale)
+-Cradily & Lileep: A2 = None -> Simple
+-Armaldo & Anorith: A2 = None -> Tough Claws
+-Mioltic: HA = Cute Charm -> Multiscale
+-Tropius: A2 = Solar Power -> Ripen
+-Chimecho: HA = None -> Pyschic Surge
+-Walrein: HA = Oblivious -> Regenerator
+-Luvdisc: A2 = None -> Hydration, HA = Hydration -> Drizzle
+-Regice: HA Ice Body -> Filter
+-Registeel: HA Light Metal -> Filter 
+-Latias: HA = None -> Serene Grace
+-Latios: HA = None -> Serene Grace
+-Kyogre: HA = None -> Hydration
+-Groudon: HA = None -> Heatproof
+-Rayquaza: HA = None -> Shed Skin
+-Jirachi: HA = None -> Super Luck
+-Deoxys: HA = None -> Limber
+
+Sinnoh
+-Kricketot: HA = Run Away -> Technician
+-Luxray: A1 = Rivalry -> Strong Jaw
+-Rampardos & Cranidos: A2 = None -> Reckless
+-Shieldon & Bastiodon: A2 = None -> Soundproof, HA = Soundproof -> Face Shield (Dauntless Shield)
+-Wormadam: A1 = Anticipation -> Technician
+-Mothim: A1 = Swarm -> Adaptability, A2 = None -> Compound Eyes, HA = Tinted Lens -> Subterfuge (Protean)
+-Vespiquen: A2 = None -> Queenly Majesty, HA: Unnverve -> Honey Armor (Fur Coat)
+-Pachirisu: A1 = Run Away -> Serene Grace
+-Buizel & Floatzel: A2 = None -> Water Veil, HA = Water Veil -> Technician
+-Mismagius: HA = None -> Magic Bounce
+-Chingling: HA = None -> Forewarn
+-Skuntank: HA = Keen Eye -> Poison Touch
+-Chatot: HA = Big Pecks -> Punk Rock
+-Spiritomb: A2 = None -> Infiltrator, HA = Infiltrator -> Bad Dreams
+-Drapion: HA = Keen Eye -> Super Luck
+-Finneon & Lumineon: HA = Water Veil -> Water Bubble
+-Carnivine: HA = None -> Grassy Surge
+-Magmortar: HA = Vital Spirit -> Sheer Force
+-Leafeon: A1 = Leaf Guard -> Sap Sipper
+-Glaceon: HA: Ice Body -> Icy Skin (Ice Scales)
+-Gallade: A2 = None -> Moxie
+-Probopass: HA = Sand Force -> Analytic
+-Dusknoir: HA = Frisk -> Iron Fist
+-Froslass: A2 = None -> Cursed Body, HA = Cursed Body -> Perish Body
+-Rotom: HA = None -> Motor Drive
+-Uxie: HA = None -> Comatose
+-Mesprit: HA = None -> Magic Bounce
+-Azelf: HA = None -> Infiltrator
+-Regigigas: HA = None -> Stall
+-Cresselia: HA = None -> Magician
+-Phione: HA = None -> Drizzle
+-Manaphy: HA = None -> Soul Heart
+-Darkrai: HA = None -> Infiltrator
+-Shaymin & Shaymin Sky: HA = None -> Flower Veil
+
+Unova
+-Victini: HA = None -> Synchronize
+-Patrat: A1 = Run Away -> Stakeout
+-Watchog: A1 = Illuminate -> Stakeout
+-Pansage & Simisage: HA = Overgrow -> Adaptability
+-Pansear & Simisear: HA = Blaze -> Adaptability
+-Panpour & Simipour: HA = Torrent -> Adaptability
+-Musharna: A1 = Forewarn -> Magic Guard
+-Pidove, Tranquill, & Unfezant: A1 = Big Pecks -> Rivalry, HA = Rivalry -> Pride (Moxie)
+-Blitzle & Zebstrika: A1 = Lightning Rod -> Shocking Neigh (Moxie)
+-Mega Audino: A1 = Healer -> Triage
+-Cottonee & Whimsicott: HA = Chlorophyll -> Cotton Down
+-Petilil & Lilligant: HA Leaf Guard -> Dancer
+-Archen & Archeops: HA None -> Klutz
+-Basculin-Red & Basculin-Blue: HA = Mold Breaker -> Speed Boost
+-Ducklett & Swanna: A2 = Big Pecks -> Hydration, HA: Hydration -> Competitive
+-Emolga: A2 = None -> Motor Drive, HA = Motor Drive -> Electric Surge
+-Klink, Klang & Klinklang: A2 = Minus -> Clear Body, HA = Clear Body -> Motor Drive
+-Elgyem: A1 = Telepathy -> Analytic, HA = Analytic -> Telepathy
+-Beheeyem: A1 = Telepathy -> Analytic, HA = Analytic -> Psychic Surge
+-Litwick, Lampent & Chandelure: HA = Inflitrator -> Shadow Tag
+-Cryogonal: HA = None -> Filter
+-Stunfisk: A2 = Limber -> Water Absorb
+-Golett & Golurk: A2 = Klutz -> Power Spot
+-Bouffalant: HA Soundproof -> Stamina
+-Heatmor: HA = White Smoke -> Berserk
+-Cobalion: HA = None -> No Guard
+-Terrakion: HA = None -> Steadfast
+-Virizion: HA = None -> No Guard
+-Reshiram: HA = None -> Flash Fire
+-Zekrom: HA = None -> Lightning Rod
+-Kyurem (Original): HA = None -> Refrigerate
+-Meloetta-A: HA = None -> Competitive
+-Meloetta-P: HA = None -> Defiant
+-Keldeo - HA = None -> Intrepid Sword
+-Genesect - HA = None -> Analytic
+
+Kalos
+-Delphox: HA = Magician -> Magic Guard
+-Skiddo: A2 = None -> Grass Pelt, HA = Grass Pelt -> Run Away
+-Gogoat: A2 = None -> Grass Pelt, HA = Grass Pelt -> Grassy Surge
+-Espurr: A1 = Keen Eye -> Competitive
+-Litleo: HA = Moxie -> Adaptability
+-Pyroar: A1 = Rivalry -> Royal Roar (Grim Neigh), HA = Moxie -> Adaptability
+-Flabebe, Floette, & Florges: A2 = None -> Aroma Veil
+-Meowstic-F: A1 = Keen Eye -> Competitive, HA = Competitive -> Psychic Surge
+-Spritzee & Aromatisse: A2 = None -> Aroma Veil, HA = Aroma Veil -> Regenerator
+-Swirlix & Slurpuff: A2 = None -> Competitive
+-Dedenne: HA = Plus -> Misty Surge
+-Carbink: A2 = None -> Sturdy, HA = Sturdy -> Misty Surge
+-Pumpkaboo & Gourgeist: HA = Insomnia -> Heatproof
+-Noibat & Noivern: HA = Telepathy -> Sound Waves (Punk Rock)
+-Xerneas: HA = None -> Pixilate 
+-Yveltal: HA = None -> Aerilate
+-Diancie: HA = None -> Analytic
+-Hoopa: HA = None -> Prankster
+-Hoopa-Unbound: HA = None -> Portal Power (reduces power of enemy non-contact moves by 25%)
+-Volcanion: HA = None -> Steam Engine
+
+Alola
+-Oricorio: HA = None -> Serene Grace
+-Crabominable: HA = Anger Point -> Crabby Tactics (Gorilla Tactics)
+-Lycanroc-Midnight & Lycanroc-Midday: A1 = Keen Eye -> Tough Claws
+-Fomantis & Lurantis: A2 = None -> Chlorophyll
+-Morelull & Shiinotic: A1 = Illuminate -> Rain Dish, HA = Rain Dish -> Magic Bounce
+-Golisopod: HA: None -> Shell Armor
+-Turtonator: HA = None -> Weak Armor
+-Dhelmise: HA: None -> Aftermath
+-Komala: HA = None -> Scrappy
+-Solgaleo: HA = None -> Battle Armor
+-Lunala: HA = None -> Levitate
+-Necrozma: HA = None -> Mirror Armor
+-Magearna: HA = None -> Analytic
+-Marshadow: HA = None -> Long Reach
+-Zeraora: HA = None -> Anticipation
+-Meltan & Melmetal: HA = None -> Clear Body
+
+Galar
+-Nickit/Thievul: A1 = Run Away -> Technician
+-Stonjourner: HA = None -> Solid Rock
+
+Evolutions (All Earlier):
+Slugma -> Magcargo: Lv. 30
+Pupitar -> Tyranitar: Lv. 48
+Snorunt -> Glalie: Lv. 30
+Glameow -> Purugly: Lv. 34
+Ducklett -> Swanna: Lv. 30
+Vanillite -> Vanillish: Lv. 24
+Vanillish -> Vanilluxe: Lv. 42
+Klink -> Klang: Lv. 35
+Klang -> Klinklang: Lv. 45
+Mienfoo -> Mienshao: Lv. 46
+Rufflet -> Braviary: Lv. 50
+Vullaby -> Mandibuzz: Lv. 50
+Binacle -> Barbaracle: Lv. 36
+
+Shinies:
+-Butterfree
+-Kakuna, Beedrill, Beedrill-M
+-Pidgey, Pidgeotto, Pidgeot, Pidgeot-M
+-Nidoqueen
+-Spearow, Fearow
+-Ekans, Arbok
+-Raichu, A-Raichu
+-Cleffa, Clefairy, Clefable
+-Meowth, Persian, G-Max Meowth
+-Golduck
+-Poliwag, Poliwhirl, Poliwrath
+-Machop, Machoke, Machamp, G-Max Machamp
+-Rapidash
+-Seel, Dewgong
+-Gengar, Gengar-M
+-Onix
+-Krabby, Kingler, G-Max Kingler
+-Cubone, Marowak
+-Koffing, Weezing
+-Rhydon, Rhyperior
+-Kangaskhan, Kangaskhan-M
+-Goldeen, Seaking
+-Munchlax, Snorlax, G-Max Snorlax
+-Articuno
+-Zapdos
+-Elekid, Electabuzz, Electivire
+-Magby, Magmar, Magmortar
+-Tauros
+-Vaporeon, Jolteon, Flareon, Espeon, Leafeon
+-Dragonite
+-Mewtwo, Mewtwo-X, Mewtwo-Y
+-Cyndaquil, Quilava, Typhlosion
+-Ledyba, Ledian
+-Crobat
+-Natu, Xatu
+-Flaaffy
+-Azurill, Marill
+-Murkrow, Honchkrow
+-Sunkern, Sunflora
+-Misdreavus, Mismagius
+-Granbull
+-Scizor, Scizor-M
+-Heracross, Heracross-M
+-Sneasel, Weavile
+-Teddiursa, Ursaring
+-Magcargo
+-Octillery
+-Houndour, Houndoom, Houndoom-M
+-Stantler
+-Shiftry
+-Ralts, Kirlia, Gardevoir, Gardevoir-M
+-Mudkip, Marshtomp, Swampert, Swampert-M
+-Zigzagoon, Linoone
+-Whismur, Loudred, Exploud
+-Sableye
+-Plusle, Minun
+-Carvanha, Sharpedo, Sharpedo-M
+-Numel
+-Solrock
+-Corphish, Crawdaunt
+-Kecleon
+-Shuppet, Banette, Banette-M
+-Tropius
+-Spheal, Sealeo, Walrein
+-Regice
+-Registeel
+-Latias-M
+-Latios-M
+-Kyogre
+-Groudon
+-Deoxys
+-Turtwig, Grotle, Torterra
+-Chimchar, Monferno, Infernape
+-Piplup, Prinplup, Empoleon
+-Burmy, Wordmadam
+-Shellos, Gastrodon
+-Bronzor, Bronzong
+-Riolu, Lucario, Lucario-M
+-Dusknoir
+-Froslass
+-Heatran
+-Darkrai
+-Shaymin
+-Snivy, Servine, Serperior
+-Pansage, Simisage
+-Pansear, Simisear
+-Panpour, Simipour
+-Blitzle, Zebstrika
+-Sawk
+-Throh
+-Basculin
+-Scrafty
+-Vanillite, Vanillish, Vanilluxe
+-Deerling, Sawsbuck
+-Emolga
+-Karrablast, Escavalier
+-Tynamo, Eelektrik, Eelektross
+-Cobalion
+-Thundurus
+-Reshiram
+-Zekrom
+-Fletchling, Fletchinder, Talonflame
+-Litleo, Pyroar
+-Hoopa
+-Volcanion
+-Komala
+-Cosmog
+
+The Following Moves Are Not Available:
+-Ally Switch
