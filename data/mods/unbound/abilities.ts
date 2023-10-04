@@ -10,4 +10,14 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		num: 307,
 		gen: 7,
 	},
+	/*
+	Custom abilities that need to be done are:
+	Drill Beak  	|| Fearow
+	Brain Bond  	|| Girafarig
+	Evaporate		|| Magcargo
+	Slippery Tail	|| Seviper
+	Portal Power	|| Hoopa-Unbound
+	Abilities that have changed that need to be updated are:
+	Gale Wings
+	*/
 };
