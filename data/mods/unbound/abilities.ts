@@ -11,7 +11,14 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		gen: 7,
 	},
 	evaporate: {
-
+		onStart(source) {
+			if (['raindance', 'primordialsea'].includes(source.effectiveWeather())) {
+				this.field.clearWeather();
+			}
+		},
+		onAnySetWeather(target, source, weather) {
+			if (weather.id === 'raindance') return false;
+		},
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
 				if (!this.boost({spa: 1})) {
@@ -47,10 +54,9 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	/*
 	Custom abilities that need to be done are:
-	Drill Beak  	|| Fearow
-	Brain Bond  	|| Girafarig
-	Evaporate		|| Magcargo -- storm drain done, still needs rain prevention
-	Slippery Tail	|| Seviper
-	Portal Power	|| Hoopa-Unbound
+	Drill Beak (make all 'drill' moves crit)  		|| Fearow
+	Brain Bond (Same as parental bond, I think) 	|| Girafarig
+	Slippery Tail (Priority given to 'tail' moves)	|| Seviper
+	Portal Power(uhhh i dont remember lmao)			|| Hoopa-Unbound
 	*/
 };
