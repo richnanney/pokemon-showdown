@@ -52,10 +52,20 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		},
 		rating: 4,
 	},
+	drillbeak: {
+		onModifyMove(move) {
+			if (move.name.includes("Drill")) {
+				move.willCrit === true;
+			}
+		},
+		name: "Drill Beak",
+		rating: 4.0,
+		gen:7
+	}
+
 	/*
 	Custom abilities that need to be done are:
-	Drill Beak (make all 'drill' moves crit)  		|| Fearow
-	Brain Bond (Same as parental bond, I think) 	|| Girafarig
+	Brain Bond (Same as parental bond) 	|| Girafarig
 	Slippery Tail (Priority given to 'tail' moves)	|| Seviper
 	Portal Power(uhhh i dont remember lmao)			|| Hoopa-Unbound
 	*/
