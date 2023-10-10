@@ -53,7 +53,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		desc: "The user strikes with a fang, and heals for a portion of the damage dealt.",
-		shortDesc: "Deal damage, heal a portion of it.",
+		shortDesc: "Deal damage, heal a portion of the damage.",
 		name: "Leech Fang",
 		gen: 7,
 		pp: 10,
@@ -76,12 +76,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	Moves With Power nerfed to 110 as of XY: 120
 	Moves With Power nerfed to 130 as of XY: 140
 	PLA Attacks: Altered based on similar moves -- Figure out what this means.
+
 	Steelyhit
 
 	King's Shield lowers Attack by 2 on contact (Gen 7)
-	There is no money cap on G-Max Gold Rush
 	New PLA attacks with increased action speed are priority moves
-	Victory Dance is physical Quiver Dance
 	Freeze-Dry has a 30% chance to inflict frostbite, Freezing Glare 20% (and still doubles in Hail)
 	Infernal Parade & Bitter Malice only double damage on burn and frostbite respectively
 	*/
