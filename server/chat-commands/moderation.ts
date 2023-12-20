@@ -564,7 +564,7 @@ export const commands: Chat.ChatCommands = {
 				`${targetID} was warned by ${user.name} while offline.${publicReason ? ` (${publicReason})` : ``}`
 			);
 			this.globalModlog('WARN OFFLINE', targetUser || targetID, privateReason);
-			Punishments.offlineWarns.set(targetID, reason);
+			Punishments.offlineWarns.set(targetID, publicReason);
 			if (saveReplay) this.parse('/savereplay forpunishment');
 			return;
 		}
@@ -1360,11 +1360,7 @@ export const commands: Chat.ChatCommands = {
 		const type = cmd.includes('name') ? 'NAMELOCK' : 'LOCK';
 		Punishments.punishRange(ip, reason, time, type);
 
-		if (year) {
-			this.addGlobalModAction(`${user.name} year-${type.toLowerCase()}ed the ${ipDesc}: ${reason}`);
-		} else {
-			this.addGlobalModAction(`${user.name} hour-${type.toLowerCase()}ed the ${ipDesc}: ${reason}`);
-		}
+		this.addGlobalModAction(`${user.name} ${year ? 'year' : 'hour'}-${type.toLowerCase()}ed the ${ipDesc}: ${reason}`);
 		this.globalModlog(
 			`${year ? 'YEAR' : 'RANGE'}${type}`,
 			null,

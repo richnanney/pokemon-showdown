@@ -73,7 +73,7 @@ export const TeamsHandler = new class {
 		if (!includePrivate) where.push('private IS NULL');
 
 		const result = await this.query<StoredTeam>(
-			`SELECT * FROM teams${where.length ? ` WHERE ${where.join(' AND ')}` : ''} LIMIT ${count}`,
+			`SELECT * FROM teams${where.length ? ` WHERE ${where.join(' AND ')}` : ''} ORDER BY date DESC LIMIT ${count}`,
 			args,
 		);
 		return result.filter(row => {
@@ -141,7 +141,7 @@ export const TeamsHandler = new class {
 			}
 		}
 
-		const team = Teams.import(rawTeam);
+		const team = Teams.import(rawTeam, true);
 		if (!team) {
 			connection.popup('Invalid team:\n\n' + rawTeam);
 			return null;
@@ -175,6 +175,11 @@ export const TeamsHandler = new class {
 					connection.popup(`Invalid move ${m} on ${set.species}.`);
 					return null;
 				}
+			}
+			// i have no idea how people are getting this, but we got enough reports that
+			// i guess it's worth handling
+			if (toID(set.ability) === 'none') {
+				set.ability = 'No Ability';
 			}
 			if (set.ability && !Dex.abilities.get(set.ability).exists) {
 				connection.popup(`Invalid ability ${set.ability} on ${set.species}.`);
@@ -275,7 +280,7 @@ export const TeamsHandler = new class {
 		buf += `<small>Uploaded by: <strong>${teamData.ownerid}</strong></small><br />`;
 		buf += `<small>Uploaded on: ${Chat.toTimestamp(teamData.date, {human: true})}</small><br />`;
 		buf += `<small>Format: ${Dex.formats.get(teamData.format).name}</small><br />`;
-		buf += `<small>Views: ${teamData.views}</small>`;
+		buf += `<small>Views: ${teamData.views === -1 ? 0 : teamData.views}</small>`;
 		const team = Teams.unpack(teamData.team)!;
 		let link = `view-team-${teamData.teamid}`;
 		if (teamData.private) {
@@ -318,6 +323,8 @@ export const TeamsHandler = new class {
 	}
 	validateAccess(conn: Connection, popup = false) {
 		const user = conn.user;
+		// if there's no user, they've disconnected, so it's safe to just interrupt here
+		if (!user) throw new Chat.Interruption();
 		const err = (message: string): never => {
 			if (popup) {
 				conn.popup(message);
@@ -382,7 +389,7 @@ export const commands: Chat.ChatCommands = {
 				return null;
 			}
 			if (rawTeam.includes('\n')) {
-				rawTeam = Teams.pack(Teams.import(rawTeam));
+				rawTeam = Teams.pack(Teams.import(rawTeam, true));
 			}
 			if (!rawTeam) {
 				connection.popup("Invalid team.");
@@ -397,6 +404,7 @@ export const commands: Chat.ChatCommands = {
 
 			const page = isEdit ? 'edit' : 'upload';
 			if (id) {
+				connection.send(`|queryresponse|teamupload|` + JSON.stringify({teamid: id, teamName}));
 				connection.send(`>view-teams-${page}\n|deinit`);
 				this.parse(`/join view-teams-view-${id}-${id}`);
 			} else {
@@ -584,7 +592,7 @@ export const pages: Chat.PageTable = {
 				return this.errorReply(`That team is private.`);
 			}
 			this.title = `[Team] ${team.teamid}`;
-			if (user.id !== team.ownerid) {
+			if (user.id !== team.ownerid && team.views >= 0) {
 				void TeamsHandler.updateViews(team.teamid);
 			}
 			return `<div class="ladder pad">` + TeamsHandler.renderTeam(team, user) + "</div>";
