@@ -55,7 +55,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	drillbeak: {
 		onModifyMove(move) {
 			if (move.name.includes("Drill")) {
-				move.willCrit === true;
+				move.willCrit = true;
 			}
 		},
 		name: "Drill Beak",

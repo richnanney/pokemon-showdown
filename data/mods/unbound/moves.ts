@@ -65,6 +65,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		type: "Bug",
 		contestType: "Clever",
 	},
+	wavecrash: {
+		inherit: true,
+		basePower: 75,
+		priority: 1,
+	},
 
 
 	/*
