@@ -70,7 +70,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		priority: 1,
 	},
-
+	flamethrower: {
+		inherit: true,
+		basePower: 95,
+	}
+	
 
 	/*
 	TODO:
